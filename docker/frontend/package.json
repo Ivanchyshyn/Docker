@@ -1,0 +1,32 @@
+{
+  "name": "demo-app",
+  "version": "0.0.1",
+  "description": "This is the demo app using docker",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'build'",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivanchyshyn/Docker.git"
+  },
+  "keywords": [
+    "docker",
+    "python",
+    "flask",
+    "NodeJs",
+    "MongoDB",
+    "redis"
+  ],
+  "author": "Sasha <ivanchyshyn14@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ivanchyshyn/Docker/issues"
+  },
+  "homepage": "https://github.com/Ivanchyshyn/Docker#readme",
+  "dependencies": {
+     "express": "^4.16.3"
+  }
+}
